@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lato', sans-serif !important;
+}
+
+.main-btn{
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0px;
+    background-color: #02010100;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #fff;
+    border-radius: 5px 5px 5px 5px;
+    display: inline-block;
+    line-height: 1;
+    font-size: 15px;
+    padding: 12px 24px;
+    border-radius: 3px;
+    color: #fff;
+    fill: #fff;
+    text-align: center;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+    margin-left: 10px;
+}
+
+.logo{
+   width: 4rem;
+   border-radius: 5px;
+}
+
+.nav-link{
+    margin-right: 20px;
+    margin-left: 20px;
+    font-size: large !important;
+    color: white !important;
+}
+
+.section1{
+    background-image: url("../images/frontpage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    opacity: .9;
+}
+
+.text{
+    justify-items: center;
+    font-weight: 700;
+    font-size: 400%;
+    line-height: 74px;
+    padding-top: 200px;
+    align-items: center;
+    color: white;
+}
+.clrb{
+    color: #CFA670;
+}
+
+.navbar-toggler{
+    color: #fff !important;
+    border: none;
+}
+.navbar-toggler:focus{
+    text-decoration: none;
+    outline: 0;
+    box-shadow: none !important;
+}
+
+.img1{
+    background-image: url("../images/pexels-valeria-boltneva-1893574.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    border-radius: 15px;
+    margin-left: 1rem;
+}
+
+.img2 {
+    background-image: url("../images/pexels-chan-walrus-958545.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    border-radius: 15px;
+    margin-left: 1rem;
+}
+
+.lside1{
+    padding-left: 100px;
+    align-items: center;
+    justify-items: auto;
+}
+
+.section2{
+    padding: 5rem;
+}
+
+.cl-1 {
+    text-align: center;
+}
+.clrd{
+    padding: 2rem;
+    color: #CFA670;
+}
+
+.discu{
+    font-size: 50px;
+    font-weight: bolder;
+    color: #000000;
+}
+.one{
+    width: 450px;
+}
+
+#login{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url("../images/logpa.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply !important;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#signing{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url("../images/signpg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply !important;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#logrow{
+    display: block !important;
+}
+
+.two{
+    padding-right: 1.5rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    background: none;
+    border: none;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    width: 100%;
+}
+.two::placeholder{
+    color: white;
+}
+
+.two:focus{
+    outline: none;
+}
+
+input[type=text],input[type=password]{
+    color: white;
+    border-color: white;
+    padding-left: 5px;
+}
+
