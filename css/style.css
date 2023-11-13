@@ -46,7 +46,7 @@ body{
 }
 
 .section1{
-    background-image: url("../images/frontpage.jpg");
+    background-image: url("../images/frontpage3.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -65,7 +65,7 @@ body{
     color: white;
 }
 .clrb{
-    color: #CFA670;
+    color: #999966;
 }
 
 .navbar-toggler{
@@ -84,7 +84,6 @@ body{
     background-size: cover;
     background-position: center;
     height: 60vh;
-    border-radius: 15px;
     margin-left: 1rem;
 }
 
@@ -94,7 +93,7 @@ body{
     background-size: cover;
     background-position: center;
     height: 60vh;
-    border-radius: 15px;
+    border-radius: 0px 15px 0px 15px;
     margin-left: 1rem;
 }
 
@@ -112,8 +111,8 @@ body{
     text-align: center;
 }
 .clrd{
-    padding: 2rem;
-    color: #CFA670;
+    padding: 1rem;
+    color: #999966;
 }
 
 .discu{
@@ -181,3 +180,158 @@ input[type=text],input[type=password]{
     padding-left: 5px;
 }
 
+#trail-btn{
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 0px;
+    background-color: black;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: white;
+    border-radius: 5px 5px 5px 5px;
+    display: inline-block;
+    line-height: 1;
+    font-size: 15px;
+    padding: 12px 24px;
+    border-radius: 3px;
+    color: white;
+    fill: white;
+    text-align: center;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+    margin-left: 10px;
+}
+.trail-nav{
+    background-color: #0B0D0F;
+}
+
+#Explor-Foods{
+    width: 100%;
+    height: 100vh;
+}
+
+#m-img{
+    background-image: url("../images/m-img.jpg") !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 50%;
+    height: 100vh;
+}
+#m-read{
+    background-color: #16191e;
+    color: #849799;
+}
+.m-text{
+    font-size: 46px;
+    line-height: 66px;
+    color: #999966;
+}
+.m-clr{
+    font-size: 36px;
+    line-height: 46px;
+    font-weight: 600;
+    color: white;;
+}
+
+#Offer{
+    background-image: url("../images/offer.jpg") !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 50%;
+    height: 100vh;
+}
+
+.of-d{
+    display: flex !important;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    height: 100%;
+}
+
+.of-clr{
+    font-size: 36px;
+    line-height: 46px;
+    font-weight: 600;
+    color: black;
+}
+.smalltext{
+    color: #849799;
+}
+
+.content{
+    text-align: center;
+}
+
+.testimonial{
+    padding: 80px;
+    margin-bottom: 80px;
+}
+
+.content p{
+    width: 60%;
+    margin: auto;
+}
+.carousel-indicators{
+    bottom: -80px !important;
+}
+
+.carousel-indicators [ data-bs-target]{
+    background-color: #000000 !important;
+}
+.section-header{
+    text-align: center;
+}
+
+#btn-i{
+    color: #000000;
+    font-size: 25px;
+}
+
+#clint{
+    height: 100hv;
+}
+
+#loca{
+    height: 80hv;
+    color: #fff;
+}
+
+#loca-img{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url("../images/loca.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply !important;
+    height: 80vh;
+    opacity: .9;
+}
+
+#loca-map{
+    height: 80vh;
+    width: 100%;
+}
+
+.loca-text{
+    font-size: 36px;
+    line-height: 46px;
+    font-weight: 600;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+#foot{
+    color: #849799 !important;
+    background-color: #16191e !important;
+}
+#menu-pg{
+    background-color: #000000;
+    width: 100%;
+    height: 100vh;
+}
